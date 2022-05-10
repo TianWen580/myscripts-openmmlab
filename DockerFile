@@ -34,6 +34,7 @@ RUN pip install torchserve torch-model-archiver -i https://pypi.tuna.tsinghua.ed
 ARG PYTORCH
 ARG CUDA
 
+
 RUN pip install opencv-python==4.5.5.62 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 RUN ["/bin/bash", "-c", "pip install mmcv-full==${MMCV} -f https://download.openmmlab.com/mmcv/dist/cu${CUDA//./}/torch${PYTORCH}/index.html"]
