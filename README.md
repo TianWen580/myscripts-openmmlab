@@ -1,2 +1,2 @@
 # myscripts-openmmlab
-there are some python scripts processing dataset, inferencing etc. wrote when I using openmmlab.
+There are some python scripts processing dataset, inferencing etc. wrote when I am using openmmlab.
