@@ -14,17 +14,17 @@ def show_result_pyplot(model, img, result):
 
 def main():
     # config文件
-    config_file = 'configs/swin_transformer/一级.py'
+    config_file = 'configs/xxx/xxx.py'
     # 训练好的模型
-    checkpoint_file = 'create/cmaratrap第二次分类/epoch_225.pth'
+    checkpoint_file = '~/xxx.pth'
 
     # model = init_detector(config_file, checkpoint_file)
     model = init_model(config_file, checkpoint_file, device='cuda:0')
 
     # 图片路径
-    img_dir = r'C:\Users\布鲁瓦丝甜甜文\Desktop\sec_class_val\中华鬣羚'
+    img_dir = r'~\data\classxxx'
 
-    classes = os.listdir(r'C:\Users\布鲁瓦丝甜甜文\Desktop\sec_class_val')
+    classes = os.listdir(r'~\data')
     classes.sort()
 
     test_list = os.listdir(img_dir)
